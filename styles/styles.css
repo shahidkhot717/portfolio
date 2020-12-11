@@ -1,0 +1,252 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	/*background-color: #000;*/
+
+}
+html {
+  scroll-behavior: smooth;
+}
+
+
+/*header ul li a{
+	font-size: 20px;
+	font-weight: 500px;
+	text-transform: uppercase;
+	/*color: white;*/
+	/*display: flex;*/
+
+
+header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	/*position: relative;*/
+	justify-content: space-between;
+	align-items: center;
+	background-color: #fff;
+	transition: 0.6s;
+	z-index: 500;
+}
+
+header .logo{
+	position: relative;
+	font-weight: 700;
+	color: #000;
+	font-size: 2rem;
+	letter-spacing: 2px;
+	text-decoration: none;
+	transition: 0.6s;
+	margin-left: 10px; 
+}
+
+header ul{
+	position: relative;
+	align-items: center;
+	justify-content: space-around;
+	letter-spacing: 2px;
+	/*display: inline;*/
+	text-decoration: none;
+	display: flex;
+	margin: 15px;
+
+}
+
+header ul li{
+	position: relative;
+	list-style: none;
+	/*text-decoration: none;
+	margin-right: 10px;*/
+}
+
+header ul li a{
+	position: relative;
+	color: #000;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 500px;
+	text-transform: uppercase;
+	transition: 0.6s;
+	margin-left: 10px; 
+	text-decoration: none;
+}
+
+
+
+header.sticky{
+	background-color: #000;
+}
+header.sticky .logo,
+header.sticky ul li a{
+	color: #fff;
+	/*background-color: #fff;*/
+}
+
+h1{
+	align-items: center;
+	justify-content: center;
+	/*color: white;*/
+	margin-top: 200px;
+	text-align: center;
+	/*min-height: 500vh;*/
+}
+h2{
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+h3{
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+
+}
+
+
+#section1,#section2,#section3,#section4,#section5 { 
+  width: 100%;
+  height: wrap-content;
+  padding: 0 7%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  /*background-color: #373B44;*/
+  /*background: linear-gradient(to right,#00AAFF,#00FF6C); */
+  height: 100vh;
+  overflow: hidden;
+  font-weight: 5em;
+  }
+img{
+	margin-top: 150px;
+}
+
+.col{
+	font-weight: 500;
+	font-size: 20px;
+	
+}
+
+.col ul li{
+	list-style: none;
+	margin-left: 210px;
+}
+
+.col ul h1{
+	margin-top: 10px;
+}
+
+.contact{
+	background-color:white;
+	box-sizing: border-box;
+	width: 30%;
+
+}
+
+
+.contact input{
+	padding: 10px 0;
+	margin-bottom: 30px;
+}
+
+.contact textarea{
+	padding: 10px 0;
+	height: 80px;
+	margin-bottom: 40px;
+}
+
+
+.contact textarea ,
+.contact input {
+	width: 100%;
+	box-sizing: border-box;
+	border: none;
+	box-shadow: none;
+	border-bottom: 2px solid #00AAFF;
+	outline: none;
+}
+
+.contact textarea{
+	margin-bottom:  20px;
+}
+
+
+.contact input[type="submit"]{
+	border-bottom: none;
+	cursor: pointer;
+	margin-bottom: 0;
+	text-transform: uppercase;
+}
+
+.contact form div{
+	position: relative;
+}
+
+.contact form div label{
+	position: absolute;
+	top: 12px;
+	pointer-events: none;
+	left: 0;
+	transition: 0.5s;
+}
+
+.contact textarea:focus ~ label,
+.contact input:focus ~ label,
+.contact textarea:valid ~ label,
+.contact input:valid ~ label{
+	top: -12px;
+	left: 0;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+
+.contact textarea:focus,
+.contact input:focus,
+.contact textarea:valid,
+.contact input:valid {
+	border-bottom: 2px solid #00FF6C;
+}
+.red-input:focus {
+  background: yellow;
+  color: red;
+}
+
+.new{
+	columns: 100px 2; 
+}
+
+
+.new ul li{
+	margin-right: 100px;
+}
+
+.home ul 
+{
+	margin-left: 45%;
+	margin-top: 15px;
+}
+.home ul li{
+	list-style: none;
+	display: inline;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	margin-right: 10px;
+
+
+}
+
+
+
+
+
+
+
+
+
